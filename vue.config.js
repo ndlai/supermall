@@ -1,0 +1,13 @@
+module.exports={
+    configureWebpack:{
+        resolve:{
+            alias:{//默认已将@对应到src路径 
+                'assets':'@/assets',
+                'common':'@/common',
+                'components':'@/components',
+                'network':'@/network',
+                'views':'@/views',
+            }
+        }
+    }
+}
